@@ -1,5 +1,5 @@
 /*
- * Problem: Rotate Array
+ * Problem: Rotate Array to the k places
  * Approach: Reverse Array
  * TC: O(n) | SC: O(1)
  */
@@ -44,3 +44,11 @@ public class RotateTheArrayToTheRight {
         }
     }
 }
+
+
+
+
+//left rotate
+//reverse(nums, 0, k - 1);
+//reverse(nums, k, n - 1);
+//reverse(nums, 0, n - 1);
