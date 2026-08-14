@@ -6,7 +6,7 @@
 
 package Arrays;
 
-public class SecondLargestInArray {
+public class SecondLargestInArray_02 {
     public static int getsecondlargest(int[] arr) {
 
         int largest = arr[0];

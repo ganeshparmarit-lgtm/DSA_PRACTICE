@@ -7,7 +7,7 @@
 
 package Arrays;
 
-public class LargestElementInArray {
+public class LargestElementInArray_01 {
     public static int largest(int[] arr){
         int largestelement = arr[0];     //start from first element.
 

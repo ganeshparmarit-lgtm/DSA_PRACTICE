@@ -7,7 +7,7 @@
 
 package Arrays;
 
-public class ArrayIsSortedAndRoated{
+public class ArrayIsSortedAndRoated_03 {
     public static boolean check(int[] arr) {
         int count = 0;
 

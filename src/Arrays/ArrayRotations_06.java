@@ -4,7 +4,7 @@
  */
 package Arrays;
 
-public class ArrayRotations {
+public class ArrayRotations_06 {
 
     // ==========================================
     // 1. Left Rotate by One

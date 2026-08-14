@@ -5,7 +5,7 @@
  */
 package Arrays;
 
-public class RotateTheArrayToTheRight {
+public class RotateTheArrayToTheRight_06 {
 
     // Array ke given range ko reverse karta hai
     public static void reverse(int[] nums, int start, int end) {

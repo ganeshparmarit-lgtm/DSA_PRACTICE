@@ -1,6 +1,6 @@
 package Arrays;
 
-public class RemoveDuplicatesFromSortedArray {
+public class RemoveDuplicatesFromSortedArray_04 {
     public static int removeduplicates(int[] arr){
 
         int k = 1;                           //pehla element humesha unique

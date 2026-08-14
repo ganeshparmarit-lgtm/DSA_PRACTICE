@@ -5,7 +5,7 @@
  */
 package Arrays;
 
-public class RightRotateArrayByOne {
+public class RightRotateArrayByOne_05 {
     public static void rotate(int[] nums) {
         int temp = nums[nums.length - 1]; // last element save karo
 
