@@ -6,7 +6,7 @@
 
 package Arrays;
 
-public class MissingNumber {
+public class MissingNumber_10 {
     public static int missingNumber(int[] arr) {
         int n = arr.length;
         int expectedSum = n * (n + 1) / 2; // 1 se n tak ka sum
