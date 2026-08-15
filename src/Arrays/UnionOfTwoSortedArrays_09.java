@@ -8,7 +8,7 @@ package Arrays;
 
 import java.util.ArrayList;
 
-public class UnionOfTwoSortedArrays {
+public class UnionOfTwoSortedArrays_09 {
     public static ArrayList<Integer> findUnion(int[] a, int[] b) {
 
         int i = 0; // arr1 ka pointer
