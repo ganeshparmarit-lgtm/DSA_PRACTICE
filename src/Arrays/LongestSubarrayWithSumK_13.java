@@ -9,7 +9,7 @@ package Arrays;
 
 import java.util.HashMap;
 
-public class LongestSubarrayWithSumK {
+public class LongestSubarrayWithSumK_13 {
     public static int longestSubarray(int[] arr, int k) {
 
         HashMap<Integer, Integer> map = new HashMap<>();
