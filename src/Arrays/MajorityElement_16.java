@@ -6,7 +6,7 @@
 
 package Arrays;
 
-public class MajorityElement {
+public class MajorityElement_16 {
 
     public static int majorityElement(int[] nums) {
 
