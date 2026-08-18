@@ -5,7 +5,7 @@
  */
 package Arrays;
 
-public class SortColors {
+public class SortColors_15 {
     public static void sortColors(int[] nums) {
         int start = 0;
         int mid = 0;
