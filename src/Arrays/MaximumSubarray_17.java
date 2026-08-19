@@ -7,7 +7,7 @@
 
 package Arrays;
 
-public class MaximumSubarray {
+public class MaximumSubarray_17 {
 
     public static int maxSubArray(int[] nums) {
 
