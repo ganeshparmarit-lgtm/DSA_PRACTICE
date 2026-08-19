@@ -6,7 +6,7 @@
 
 package Arrays;
 
-public class PrintMaxSubarray {
+public class PrintMaxSubarray_18 {
     public static void printMaxSubarray(int[] arr) {
         int max = Integer.MIN_VALUE;
         int curr = 0;
