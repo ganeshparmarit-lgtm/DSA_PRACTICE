@@ -6,7 +6,7 @@
 
 package Arrays;
 
-public class StockBuySell {
+public class StockBuySell_19 {
     public static int maxProfit(int[] prices) {
         int buyPrice = prices[0]; // sabse sasta din
         int profit = 0;
