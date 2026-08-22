@@ -1,60 +1,48 @@
 /*
  * Problem: Next Permutation
- * Approach: Pivot + Swap + Reverse
+ * Approach: 3 Steps — Pivot, Swap, Reverse
  * TC: O(n) | SC: O(1)
  */
 package Arrays;
 
-public class NextPermutation {
-
+public class NextPermutation_21 {
     public static void nextPermutation(int[] nums) {
 
-        // STEP 1: Right se pivot find karo
+        // Step 1: Pivot dhundho peeche se
         int i = nums.length - 2;
-
         while (i >= 0 && nums[i] >= nums[i + 1]) {
             i--;
         }
 
-        // STEP 2: Pivot mila to usse bada element find karke swap karo
+        // Step 2: Pivot mila → swap karo
         if (i >= 0) {
-
             int j = nums.length - 1;
-
             while (nums[j] <= nums[i]) {
                 j--;
             }
-
+            // swap
             int temp = nums[i];
             nums[i] = nums[j];
             nums[j] = temp;
         }
 
-        // STEP 3: Pivot ke baad ka part reverse karo
+        // Step 3: Pivot ke baad reverse karo
         int start = i + 1;
         int end = nums.length - 1;
-
         while (start < end) {
-
             int temp = nums[start];
             nums[start] = nums[end];
             nums[end] = temp;
-
             start++;
             end--;
         }
     }
 
     public static void main(String[] args) {
-
         int[] arr = {1, 2, 3};
-
         nextPermutation(arr);
-
-        System.out.print("Next Permutation: ");
-
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        for (int x : arr) {
+            System.out.print(x + " ");
         }
     }
 }
