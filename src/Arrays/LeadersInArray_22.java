@@ -8,7 +8,7 @@ package Arrays;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class LeadersInArray {
+public class LeadersInArray_22 {
     public static ArrayList<Integer> leaders(int[] arr) {
         ArrayList<Integer> result = new ArrayList<>();
         int max = arr[arr.length - 1]; // last element hamesha leader
