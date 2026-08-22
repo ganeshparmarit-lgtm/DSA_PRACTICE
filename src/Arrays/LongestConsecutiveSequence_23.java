@@ -7,7 +7,7 @@ package Arrays;
 
 import java.util.HashSet;
 
-public class LongestConsecutiveSequence {
+public class LongestConsecutiveSequence_23 {
 
     public static int longestConsecutive(int[] nums) {
 
