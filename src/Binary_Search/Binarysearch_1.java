@@ -5,7 +5,7 @@
  */
 package Binary_Search;
 
-public class Binarysearch {
+public class Binarysearch_1 {
     public static int search(int[] nums, int target) {
         int low = 0;
         int high = nums.length - 1;

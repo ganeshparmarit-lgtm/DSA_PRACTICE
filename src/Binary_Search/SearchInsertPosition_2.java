@@ -6,7 +6,7 @@
  */
 package Binary_Search;
 
-public class SearchInsertPosition {
+public class SearchInsertPosition_2 {
 
     public static int searchInsert(int[] nums, int target) {
 
