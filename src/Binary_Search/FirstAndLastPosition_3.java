@@ -7,7 +7,7 @@ package Binary_Search;
 
 import java.util.Arrays;
 
-public class FirstAndLastPosition {
+public class FirstAndLastPosition_3 {
 
     public static int[] searchRange(int[] nums, int target) {
 
