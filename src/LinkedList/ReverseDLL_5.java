@@ -16,12 +16,12 @@ public class ReverseDLL_5 {
 
         while (current != null) {
 
-            ListNode next = current.next;
+            ListNode temp = current.next;
 
             current.next = previous;
 
             previous = current;
-            current = next;
+            current = temp;
         }
 
         return previous;
